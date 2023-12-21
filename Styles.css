@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image:url(images.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-image:linear-gradient(to right ,blue,aqua) ;
+    height: 100px;
+    border-radius: 0px 0px 30px 30px;
+    position: fixed;
+    width: 99vw;
+}
+
+nav img {
+    display: inline-block;
+    width: 250px;
+    padding: 30px;
+}
+
+ul {
+    display: inline-block;
+    float: right;
+    padding: 33px;
+}
+
+li {
+    display: inline;
+    color: white;
+    margin-right: 10px;
+    font-style: italic;
+}
+
+article {
+    text-align: center;
+    padding: 100px;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+strong {
+    font-style: italic;
+}
+
+article p {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+figure {
+    color: white;
+    padding: 30px;
+    background-image: url(BG.jfif);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 150px;
+    border-radius: 50px 0px 50px 0px;
+    word-spacing: 5px;
+    font-size: large;
+}
+
+div {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    height: 500px;
+
+}
+
+div img {
+    width: 300px;
+    text-align: center;
+}
+
+div p {
+    text-align: center;
+    padding: 30px;
+}
+
+div button {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+button:hover{
+    color: red;
+    border-color: red;
+}
+button a:hover{
+    color: red;
+    border-color: red;
+}
+select{
+    background:inherit;
+    border:0 ;
+    color: white;
+    font: inherit;
+}
+select option{
+    background-image:linear-gradient(to right ,blue,aqua) ;
+    
+}
+input {
+    padding-left: 5px;
+    background:inherit;
+    border:1;
+    border-radius: 20px;
+    border-color: white;
+    font: inherit;
+    color: white;
+}
